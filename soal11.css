@@ -1,0 +1,128 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.topdiv {
+    text-align: center;
+    background-color: #373738;
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+.topdiv button {
+    background-color: #373738;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    height: 45px;
+    width: 140px;
+    border: 1px solid #555;
+    box-shadow: 0 1px 3px #333;
+}
+
+.topdiv button:hover {
+
+    cursor: pointer;
+}
+
+.web {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.web div {
+    display: flex;
+}
+
+.web p {
+    width: 350px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.develop {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #373738;
+}
+
+.develop > div {
+    background-color: #f1f1f1;
+    width: 195px;
+    margin: 10px;
+    text-align: center;
+}
+
+.page {
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+}
+
+.box > div {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box .left {
+    background-color: DodgerBlue;
+    color: #f1f1f1;
+}
+
+.box .right {
+    background-color: #373738;
+    color: #f1f1f1;
+}
+
+
+
+.End {
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.End > div {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.End .left {
+    color: #f1f1f1;
+}
+
+.End .right {
+    color: #f1f1f1;
+}
+
+.span {
+    color: blue;
+}
